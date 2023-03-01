@@ -1,6 +1,6 @@
 import { atom, selector } from "recoil";
 
-export let defaultCategories: string[] = ["To Do", "Doing", "Done"];
+export const defaultCategories: string[] = ["To Do", "Doing", "Done"];
 
 export interface ToDoInterface {
 	text: string;
